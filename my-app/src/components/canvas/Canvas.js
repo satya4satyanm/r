@@ -1,4 +1,5 @@
 import React from 'react';
+import './Canvas.scss';
 
 class Canvas extends React.Component {
     constructor(props) {
@@ -11,8 +12,11 @@ class Canvas extends React.Component {
     render() {
         return (
             <div className="center">
-                <h4>{this.props.txt}</h4>
-                <p>Score {this.state.score}</p>
+                {/* <h4>{this.props.txt}</h4> */}
+                <div className="designer">
+                    <div className="design-area">satya</div>
+                    <div className="controls"> ss</div>
+                </div>
             </div>
         );
     }

@@ -1,0 +1,23 @@
+@import '../../assets/css/variable';
+
+.right {
+    display: flex;
+    background: rgba(255,255,255,0.1);
+    border-radius: $border-radius;
+
+    .tab-container {
+        display: flex;
+
+        > div {
+            border: 1px solid red;
+            width: 100%;
+            min-width: 100px;
+            text-align: center;
+            display: none;
+
+            &:first {
+                display: block;
+            }
+        }
+    }
+}
