@@ -12,8 +12,8 @@ class Left extends React.Component {
     render() {
         return (
             <div className="left">
-                <h4>Left</h4>
-                <p>Score {this.state.score}</p>
+                <img src="" width="50" height="50"/>
+                <img src="" width="50" height="50"/>
             </div>
         );
     }

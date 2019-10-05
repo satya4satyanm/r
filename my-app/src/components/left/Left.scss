@@ -4,4 +4,9 @@
     min-width: 60px;
     border-radius: $border-radius;
     background: rgba(255,255,255,0.1);
+    padding: 10px;
+
+    img {
+        margin: 10px 0;
+    }
 }

@@ -7,15 +7,15 @@
 
     .tab-container {
         display: flex;
+        margin: 0 auto;
 
         > div {
-            border: 1px solid red;
             width: 100%;
             min-width: 100px;
             text-align: center;
             display: none;
 
-            &:first {
+            &:first-child {
                 display: block;
             }
         }
